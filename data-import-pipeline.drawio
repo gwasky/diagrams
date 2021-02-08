@@ -1,4 +1,4 @@
-<mxfile modified="2021-02-08T11:51:45.680Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36" etag="YvR_21pWQKyEyDKtkiUS" version="14.1.1" type="github">
+<mxfile modified="2021-02-08T11:53:49.682Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36" etag="LMRfqdsDv3ZSt4gBgWBL" version="14.1.1" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
     <mxGraphModel dx="1422" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -84,6 +84,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="3Ps7weqrMxpf-TDwNYzg-100" value="Upload to S3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3Ps7weqrMxpf-TDwNYzg-82">
+          <mxGeometry x="-0.22" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="3Ps7weqrMxpf-TDwNYzg-83" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;elbow=vertical;startArrow=block;startFill=1;strokeColor=#545B64;rounded=0;" edge="1" parent="1">
           <mxGeometry width="100" relative="1" as="geometry">
             <mxPoint x="545" y="417" as="sourcePoint" />
@@ -148,10 +153,20 @@
             <mxPoint x="680.5" y="358" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="3Ps7weqrMxpf-TDwNYzg-99" value="Publish" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3Ps7weqrMxpf-TDwNYzg-95">
+          <mxGeometry x="0.1965" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="3Ps7weqrMxpf-TDwNYzg-96" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;elbow=vertical;startArrow=block;startFill=1;strokeColor=#545B64;rounded=0;" edge="1" parent="1" target="3Ps7weqrMxpf-TDwNYzg-56">
           <mxGeometry width="100" relative="1" as="geometry">
             <mxPoint x="773" y="357.5" as="sourcePoint" />
             <mxPoint x="873" y="357.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3Ps7weqrMxpf-TDwNYzg-98" value="Publish" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3Ps7weqrMxpf-TDwNYzg-96">
+          <mxGeometry x="-0.2243" y="1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3Ps7weqrMxpf-TDwNYzg-97" value="Awamo360 Data-Import CI/CD Pipeline" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
