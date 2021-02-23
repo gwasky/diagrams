@@ -1,4 +1,4 @@
-<mxfile modified="2021-02-23T06:23:45.247Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="as4BBHWbc10Pwr265ar0" version="14.3.2" type="github">
+<mxfile modified="2021-02-23T06:24:01.241Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="inwguc9StILbaJSn3VJv" version="14.3.2" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
     <mxGraphModel dx="1589" dy="1773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -135,9 +135,6 @@
             <mxPoint x="1559" y="-413" as="sourcePoint" />
             <mxPoint x="1559" y="-313" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="VnC4GjcykzV-q1C6EcFq-119" value="Security group" style="fillColor=none;strokeColor=#DD3522;verticalAlign=top;fontStyle=0;fontColor=#DD3522;" vertex="1" parent="1">
-          <mxGeometry x="960" y="-180" width="130" height="130" as="geometry" />
         </mxCell>
         <mxCell id="VnC4GjcykzV-q1C6EcFq-120" value="Bastion SG" style="fillColor=none;strokeColor=#DD3522;verticalAlign=top;fontStyle=0;fontColor=#DD3522;" vertex="1" parent="1">
           <mxGeometry x="510" y="-187.25" width="110" height="90" as="geometry" />
