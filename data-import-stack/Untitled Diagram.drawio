@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-25T15:10:50.372Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="JW4fAnL06GqJGZOYiCmq" version="14.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-25T15:40:46.158Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="rHzGmGCK4-D75JRtAkuJ" version="14.4.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1673" dy="946" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -489,6 +489,12 @@
             <mxPoint x="175" y="1809" as="sourcePoint" />
             <mxPoint x="175" y="1910" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="SfKNRKPeof5HC8NViVsP-183" value="&lt;font style=&quot;font-size: 25px&quot;&gt;DATA IMPORT DATA FLOW&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="228" y="20" width="372" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SfKNRKPeof5HC8NViVsP-184" value="&lt;h1&gt;Notes&lt;/h1&gt;&lt;ul&gt;&lt;li&gt;We shall have Status for each of the preliminary items ie PE Config, Products etc, there should be a provision for these on GUI&lt;/li&gt;&lt;li&gt;Cache will be updated at each level, with tenant-id as a KEY&lt;/li&gt;&lt;li&gt;Logs will be return to ES&lt;/li&gt;&lt;li&gt;Whenever a notification is sent to the Front-end, Front end will query the API for a updated Status&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="400" y="160" width="410" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
