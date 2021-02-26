@@ -1,0 +1,149 @@
+<mxfile host="app.diagrams.net" modified="2021-02-26T14:16:24.419Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="JzdA6dCPBzv9bP_dZEgO" version="14.4.3" type="github">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1422" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="s1Qhm90JBTVbHMfPWHc0-0" value="&lt;b&gt;Metastore&lt;/b&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="397" y="405" width="193" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="s1Qhm90JBTVbHMfPWHc0-1" value="" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;gradientColor=#b3b3b3;fillColor=#f5f5f5;strokeColor=#666666;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="50" y="480" width="240" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="s1Qhm90JBTVbHMfPWHc0-2" value="&lt;b&gt;Web Server&lt;/b&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="90" y="505" width="150" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="s1Qhm90JBTVbHMfPWHc0-3" value="&lt;b&gt;Scheduler&lt;br&gt;&lt;br&gt;Celery Executor&lt;/b&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="90" y="600" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="s1Qhm90JBTVbHMfPWHc0-4" value="&lt;b&gt;Message Broker (Redis)&lt;/b&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rotation=0;direction=south;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="388.5" y="669" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="s1Qhm90JBTVbHMfPWHc0-6" value="" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=#b3b3b3;fillColor=#f5f5f5;strokeColor=#666666;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="740" y="400" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="s1Qhm90JBTVbHMfPWHc0-7" value="" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=#b3b3b3;fillColor=#f5f5f5;strokeColor=#666666;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="740" y="520" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="s1Qhm90JBTVbHMfPWHc0-8" value="" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=#b3b3b3;fillColor=#f5f5f5;strokeColor=#666666;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="740" y="640" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="s1Qhm90JBTVbHMfPWHc0-9" value="&lt;b&gt;Celery Worker&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="770" y="665" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="s1Qhm90JBTVbHMfPWHc0-10" value="&lt;b&gt;Celery Worker&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="770" y="550" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="s1Qhm90JBTVbHMfPWHc0-11" value="&lt;b&gt;Celery Worker&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="770" y="430" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="s1Qhm90JBTVbHMfPWHc0-12" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#0050ef;strokeColor=#001DBC;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="s1Qhm90JBTVbHMfPWHc0-3" target="s1Qhm90JBTVbHMfPWHc0-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="700" as="sourcePoint" />
+            <mxPoint x="280" y="650" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="360" y="660" />
+              <mxPoint x="360" y="670" />
+              <mxPoint x="360" y="710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s1Qhm90JBTVbHMfPWHc0-14" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=1.019;exitY=0.348;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FF0000;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="s1Qhm90JBTVbHMfPWHc0-3" target="s1Qhm90JBTVbHMfPWHc0-0" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="660" as="sourcePoint" />
+            <mxPoint x="400" y="610" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="494" y="628" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s1Qhm90JBTVbHMfPWHc0-15" value="" style="endArrow=classic;startArrow=classic;html=1;strokeColor=#FF0000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="s1Qhm90JBTVbHMfPWHc0-2" target="s1Qhm90JBTVbHMfPWHc0-0" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="610" as="sourcePoint" />
+            <mxPoint x="490" y="560" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="350" y="525" />
+              <mxPoint x="350" y="455" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s1Qhm90JBTVbHMfPWHc0-16" value="" style="endArrow=classic;html=1;strokeColor=#FF0000;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="s1Qhm90JBTVbHMfPWHc0-8" target="s1Qhm90JBTVbHMfPWHc0-0" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="730" y="670" as="sourcePoint" />
+            <mxPoint x="490" y="560" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="670" y="675" />
+              <mxPoint x="670" y="470" />
+              <mxPoint x="670" y="455" />
+              <mxPoint x="660" y="455" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s1Qhm90JBTVbHMfPWHc0-17" value="" style="endArrow=none;html=1;strokeColor=#FF0000;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="s1Qhm90JBTVbHMfPWHc0-7" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="610" as="sourcePoint" />
+            <mxPoint x="670" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s1Qhm90JBTVbHMfPWHc0-18" value="" style="endArrow=none;html=1;strokeColor=#FF0000;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="s1Qhm90JBTVbHMfPWHc0-6" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="610" as="sourcePoint" />
+            <mxPoint x="670" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s1Qhm90JBTVbHMfPWHc0-19" value="" style="endArrow=classic;html=1;strokeColor=#000099;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="710" as="sourcePoint" />
+            <mxPoint x="830" y="640" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="720" y="710" />
+              <mxPoint x="720" y="620" />
+              <mxPoint x="830" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s1Qhm90JBTVbHMfPWHc0-20" value="" style="endArrow=classic;html=1;strokeColor=#000099;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" target="s1Qhm90JBTVbHMfPWHc0-7" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="630" as="sourcePoint" />
+            <mxPoint x="830" y="510" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="720" y="500" />
+              <mxPoint x="830" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s1Qhm90JBTVbHMfPWHc0-21" value="" style="endArrow=classic;html=1;strokeColor=#000099;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" target="s1Qhm90JBTVbHMfPWHc0-6" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="510" as="sourcePoint" />
+            <mxPoint x="490" y="560" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="720" y="380" />
+              <mxPoint x="830" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XtR2_fvoSZ6GicfwRhpZ-0" value="&lt;h1&gt;Celery Executor&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;The Master Node : Has the scheduler and webserver&lt;/li&gt;&lt;li&gt;When a scheduler finds a DAG that needs to be triggered, it creates a new DAGRun instance in the metadata DB&lt;/li&gt;&lt;li&gt;The scheduler then starts to trigger individual tasks in the DAG by pushing messages containing information about the tasks to be executed in the Message Broker System (We use Redis at Awamo)&lt;/li&gt;&lt;li&gt;Since Celery workers periodically pull messages from the queueing system, once a message with task information to execute is pushed into a given Queue, its pulled by a worker, this worker updates the status of that task into the metadata db and executes it&lt;/li&gt;&lt;li&gt;When the task ends, the worker updates the status of the task and the job is done&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="30" y="210" width="840" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="XtR2_fvoSZ6GicfwRhpZ-1" value="" style="endArrow=classic;html=1;strokeColor=#000099;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="410" as="sourcePoint" />
+            <mxPoint x="140" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XtR2_fvoSZ6GicfwRhpZ-2" value="Tasks flow" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="130" y="400" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XtR2_fvoSZ6GicfwRhpZ-5" value="" style="endArrow=classic;html=1;fillColor=#d80073;strokeColor=#FF0000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="78" y="430" as="sourcePoint" />
+            <mxPoint x="138" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XtR2_fvoSZ6GicfwRhpZ-6" value="DAG and Status" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="135" y="420" width="102" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
