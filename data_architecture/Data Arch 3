@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-22T10:05:06.052Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="THH8zBo75ps--vzNf6w7" version="14.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-22T10:07:58.630Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="g-QirVtNvEMymuQ4qlkE" version="14.4.6" type="github">
   <diagram id="4DWE1EE-UraobBMKhbyV" name="Page-1">
     <mxGraphModel dx="2095" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -92,7 +92,7 @@
           <mxGeometry x="-240" y="504" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="9QgIOPHGZO2NKuR7qHqs-41" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EAEDED;fontSize=22;fontColor=#FFFFFF;strokeColor=none;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-800" y="920" width="750" height="750" as="geometry" />
+          <mxGeometry x="-800" y="920" width="760" height="750" as="geometry" />
         </mxCell>
         <mxCell id="9QgIOPHGZO2NKuR7qHqs-42" value="&lt;ul&gt;&lt;li&gt;&lt;span&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;awamo360 database will be the data source for the demographic and transactional data that will be ingested,transformed and stored in the data warehouse for consumption by downstream applications (including 3rd Parties)&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-780" y="940" width="690" height="80" as="geometry" />
@@ -137,7 +137,7 @@
           <mxGeometry x="-780" y="1550" width="690" height="100" as="geometry" />
         </mxCell>
         <mxCell id="9QgIOPHGZO2NKuR7qHqs-84" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EAEDED;fontSize=22;fontColor=#FFFFFF;strokeColor=none;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-800" y="1720" width="750" height="750" as="geometry" />
+          <mxGeometry x="-800" y="1720" width="760" height="750" as="geometry" />
         </mxCell>
         <mxCell id="9QgIOPHGZO2NKuR7qHqs-85" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;All data will be loaded into the data warehouse which solely act as our &quot;single source of truth&quot; for reporting&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;Database (AWS RDS Postgres) is already set up&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-780" y="1740" width="690" height="80" as="geometry" />
@@ -160,8 +160,8 @@
         <mxCell id="9QgIOPHGZO2NKuR7qHqs-93" value="&lt;span style=&quot;font-size: 15px&quot;&gt;9&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="-790" y="1927.5" width="20" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="9QgIOPHGZO2NKuR7qHqs-94" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;All ingestion processes; extraction and Loading (EL ), data quality checks and transformations run in a certain order , from one task to another, in what we call a workflow, we need an manager or orchestrator to make sure these tasks ran in a certain order.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;Airflow workflow manager is our tool of choice, this is already in place, but we need to transition it to a more scalable infrastructural setting&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-770" y="2020" width="690" height="80" as="geometry" />
+        <mxCell id="9QgIOPHGZO2NKuR7qHqs-94" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;An OLAP engine as a reporting tool is an option we can explore, both for internal or external use, as it leverages the dimensional models to provide abiltiy to drill up and roll up of reports&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-785" y="2030" width="690" height="80" as="geometry" />
         </mxCell>
         <mxCell id="9QgIOPHGZO2NKuR7qHqs-95" value="&lt;span style=&quot;font-size: 15px&quot;&gt;6&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="-790" y="2365.5" width="20" height="29" as="geometry" />
