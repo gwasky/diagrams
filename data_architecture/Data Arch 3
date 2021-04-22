@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-22T07:57:26.447Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="ChGAAvshEQPj4G3uy4KY" version="14.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-22T09:21:33.834Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="zC-x1m0GsD_Q5hxK6kIH" version="14.4.6" type="github">
   <diagram id="4DWE1EE-UraobBMKhbyV" name="Page-1">
     <mxGraphModel dx="2095" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -92,19 +92,49 @@
           <mxGeometry x="-240" y="504" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="9QgIOPHGZO2NKuR7qHqs-41" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EAEDED;fontSize=22;fontColor=#FFFFFF;strokeColor=none;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="40" y="120" width="520" height="750" as="geometry" />
+          <mxGeometry x="40" y="120" width="750" height="750" as="geometry" />
         </mxCell>
-        <mxCell id="9QgIOPHGZO2NKuR7qHqs-42" value="&lt;span&gt;awamo360 database will be the data source for the demographic and transactional data that will be ingested,transformed and stored in the data warehouse for consumption by downstream applications (including 3rd Parties)&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="90" y="200" width="460" height="80" as="geometry" />
+        <mxCell id="9QgIOPHGZO2NKuR7qHqs-42" value="&lt;ul&gt;&lt;li&gt;&lt;span&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;awamo360 database will be the data source for the demographic and transactional data that will be ingested,transformed and stored in the data warehouse for consumption by downstream applications (including 3rd Parties)&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="60" y="140" width="690" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="9QgIOPHGZO2NKuR7qHqs-52" value="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="40" y="201" width="40" height="38" as="geometry" />
+        <mxCell id="9QgIOPHGZO2NKuR7qHqs-52" value="&lt;font style=&quot;font-size: 15px&quot;&gt;1&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="50" y="160" width="20" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="9QgIOPHGZO2NKuR7qHqs-53" value="2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="40" y="291" width="40" height="38" as="geometry" />
+        <mxCell id="9QgIOPHGZO2NKuR7qHqs-54" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;To extract data from the awamo360 database; the ELT (Extract, Load and Translate) pattern will be used, raw data at the least grain will be extracted and stored in the staging layer of the data warehouse.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;Connectors will be required for this, in-house custom connectors will be developed for this purpose&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="58" y="217.5" width="690" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="9QgIOPHGZO2NKuR7qHqs-54" value="&lt;span&gt;To extract data from the awamo360 database; the ELT (Extract, Load and Translate) pattern will be used, Raw at the least grain will be extracted and stored in the staging layer of the data warehouse.&lt;br&gt;Connectors will be required for this, In-house custom connectors will be developed for this purpose&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="90" y="290" width="460" height="80" as="geometry" />
+        <mxCell id="9QgIOPHGZO2NKuR7qHqs-55" value="&lt;font style=&quot;font-size: 15px&quot;&gt;2&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="50" y="240" width="20" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="9QgIOPHGZO2NKuR7qHqs-57" value="&lt;font style=&quot;font-size: 15px&quot;&gt;4&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="50" y="399.5" width="20" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="9QgIOPHGZO2NKuR7qHqs-58" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;For designing high performance&amp;nbsp;data warehouses, dimension Modeling is the accepted data modeling technique, we shall however adopt the &lt;b&gt;Agile dimension modeling&lt;/b&gt; for this project&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;Dimensional models describe business processes and their individual terms of measurements and descriptions, these can be used to filter, group and aggregate the measurements&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;We shall do &quot;Just Enough Design Upfront&quot; in the initial iterations and &quot;Just-In-Time&quot; detailed design within each iteration for early and frequent delivery of usable data by the downstream applications&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;&lt;b&gt;BEAM&lt;/b&gt; (Business Events Analysis and Modeling); an agile data modeling method for dimensional model design is our preferred&amp;nbsp;approach; it consists of a set of repeatable, collaborative modeling techniques for rapidly discovering business event details and documenting them&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;dbt ; Once dimensional Models are ready, dbt will be used to transform and load data into them.&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;dbt is an open source tool for data transformations&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="60" y="382" width="690" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9QgIOPHGZO2NKuR7qHqs-59" value="&lt;span style=&quot;font-size: 15px&quot;&gt;5&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="50" y="670" width="20" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="9QgIOPHGZO2NKuR7qHqs-60" value="Workflow Manager" style="outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;strokeColor=#879196;fillColor=none;verticalAlign=top;align=center;fontColor=#879196;dashed=1;spacingTop=3;" vertex="1" parent="1">
+          <mxGeometry x="-585" y="730" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9QgIOPHGZO2NKuR7qHqs-61" value="Airflow" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="-580" y="760" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9QgIOPHGZO2NKuR7qHqs-64" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;At Extraction from the awamo360 data source, data quality checks will be ran and any issues taken note of&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;Great Expectations, an open source library is our tool of choice&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="60" y="310" width="690" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9QgIOPHGZO2NKuR7qHqs-65" value="&lt;font style=&quot;font-size: 15px&quot;&gt;3&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="50" y="327.5" width="20" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="9QgIOPHGZO2NKuR7qHqs-66" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;All ingestion processes; extraction and Loading (EL ), data quality checks and transformations run in a certain order , from one task to another, in what we call a workflow, we need an manager or orchestrator to make sure these tasks ran in a certain order.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;Airflow workflow manager is our tool of choice, this is already in place, but we need to transition it to a more scalable infrastructural setting&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="60" y="650" width="690" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9QgIOPHGZO2NKuR7qHqs-69" value="&lt;span style=&quot;font-size: 15px&quot;&gt;6&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="50" y="765.5" width="20" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="9QgIOPHGZO2NKuR7qHqs-70" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;Certain dimensional attributes like phone numbers, will change from time to time, in order to preserve history of these, we need a &quot;change data capture&quot; solution that sends this data to our event streaming platform, &quot;Kafka&quot;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;Airflow workflow manager is our tool of choice, this is already in place, but we need to transition it to a more scalable infrastructural setting&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="60" y="750" width="690" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
