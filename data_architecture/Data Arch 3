@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-22T10:08:25.912Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="Q2X3NCkcv07onCCBu_Vs" version="14.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-22T10:13:33.713Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="8t79qqMzRaeKfKy4wYRK" version="14.4.6" type="github">
   <diagram id="4DWE1EE-UraobBMKhbyV" name="Page-1">
     <mxGraphModel dx="2095" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -162,12 +162,6 @@
         </mxCell>
         <mxCell id="9QgIOPHGZO2NKuR7qHqs-94" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;An OLAP engine as a reporting tool is an option we can explore, both for internal or external use, as it leverages the dimensional models to provide abiltiy to drill up and roll up of reports&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-785" y="2030" width="690" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="9QgIOPHGZO2NKuR7qHqs-95" value="&lt;span style=&quot;font-size: 15px&quot;&gt;6&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-790" y="2365.5" width="20" height="29" as="geometry" />
-        </mxCell>
-        <mxCell id="9QgIOPHGZO2NKuR7qHqs-96" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;Certain dimensional attributes like phone numbers, will change from time to time, we may deem it necessary to preserve&amp;nbsp;the history of some during data modeling process, in order to preserve history of these, we need a &quot;change data capture&quot; solution that sends this data in real time to our event streaming platform&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;Event Streaming Platform will be Kafka&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;We don&#39;t currently have this within our infrastructural&amp;nbsp;set up&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-780" y="2350" width="690" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
