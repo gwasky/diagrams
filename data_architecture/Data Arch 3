@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-22T07:04:25.326Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="LTtmzhNYOsnyseBGWXYc" version="14.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-22T07:52:32.312Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="4lwGugJ4gR39GztGWzNb" version="14.4.6" type="github">
   <diagram id="4DWE1EE-UraobBMKhbyV" name="Page-1">
     <mxGraphModel dx="2095" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -70,7 +70,7 @@
         <mxCell id="9QgIOPHGZO2NKuR7qHqs-32" value="OLAP" style="outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;strokeColor=#879196;fillColor=none;verticalAlign=top;align=center;fontColor=#879196;dashed=1;spacingTop=3;" vertex="1" parent="1">
           <mxGeometry x="-182.5" y="510" width="130" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="9QgIOPHGZO2NKuR7qHqs-33" value="Superset (Tableau,PowerBI)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCCCCC;" vertex="1" parent="1">
+        <mxCell id="9QgIOPHGZO2NKuR7qHqs-33" value="A Multi-Tenancy OLAP Engine" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCCCCC;" vertex="1" parent="1">
           <mxGeometry x="-177" y="540" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9QgIOPHGZO2NKuR7qHqs-34" value="Data Warehouse" style="outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;strokeColor=#879196;fillColor=none;verticalAlign=top;align=center;fontColor=#879196;dashed=1;spacingTop=3;" vertex="1" parent="1">
@@ -90,6 +90,24 @@
         </mxCell>
         <mxCell id="9QgIOPHGZO2NKuR7qHqs-40" value="" style="shape=doubleArrow;whiteSpace=wrap;html=1;fillColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="-240" y="504" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9QgIOPHGZO2NKuR7qHqs-41" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EAEDED;fontSize=22;fontColor=#FFFFFF;strokeColor=none;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="120" width="520" height="750" as="geometry" />
+        </mxCell>
+        <mxCell id="9QgIOPHGZO2NKuR7qHqs-42" value="&lt;span&gt;awamo360 database will be the data source for the demographic and transactional data that will be ingested,transformed and stored in the data warehouse for consumption by downstream applications (including 3rd Parties)&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="90" y="200" width="460" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9QgIOPHGZO2NKuR7qHqs-43" value="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1169" y="63" width="40" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="9QgIOPHGZO2NKuR7qHqs-52" value="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="201" width="40" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="9QgIOPHGZO2NKuR7qHqs-53" value="2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="291" width="40" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="9QgIOPHGZO2NKuR7qHqs-54" value="&lt;span&gt;To extract data from the awamo360 database; the ELT (Extract, Load and Translate) pattern will be used, Raw at the least grain will be extracted and stored in the staging layer of the data warehouse.&lt;br&gt;Connectors will be required for this, In-house custom connectors will be developed for this purpose&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="90" y="290" width="460" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
