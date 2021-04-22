@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-22T09:21:33.834Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="zC-x1m0GsD_Q5hxK6kIH" version="14.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-22T09:22:41.454Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="LfeqHr88bYMmuundIl3I" version="14.4.6" type="github">
   <diagram id="4DWE1EE-UraobBMKhbyV" name="Page-1">
     <mxGraphModel dx="2095" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -133,7 +133,7 @@
         <mxCell id="9QgIOPHGZO2NKuR7qHqs-69" value="&lt;span style=&quot;font-size: 15px&quot;&gt;6&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="50" y="765.5" width="20" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="9QgIOPHGZO2NKuR7qHqs-70" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;Certain dimensional attributes like phone numbers, will change from time to time, in order to preserve history of these, we need a &quot;change data capture&quot; solution that sends this data to our event streaming platform, &quot;Kafka&quot;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;Airflow workflow manager is our tool of choice, this is already in place, but we need to transition it to a more scalable infrastructural setting&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="9QgIOPHGZO2NKuR7qHqs-70" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;Certain dimensional attributes like phone numbers, will change from time to time, in order to preserve history of these, we need a &quot;change data capture&quot; solution that sends this data in real time to our event streaming platform&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;Event Streaming Platform will be Kafka&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="60" y="750" width="690" height="80" as="geometry" />
         </mxCell>
       </root>
