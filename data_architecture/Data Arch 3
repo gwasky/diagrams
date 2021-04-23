@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-23T08:14:35.488Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" etag="IwFBLMoY-9t4DttgqMXE" version="14.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-23T08:17:55.641Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" etag="WWQE3qlJeC59QsL383cW" version="14.6.6" type="github">
   <diagram id="4DWE1EE-UraobBMKhbyV" name="Page-1">
     <mxGraphModel dx="2272" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -159,6 +159,9 @@
         </mxCell>
         <mxCell id="9QgIOPHGZO2NKuR7qHqs-94" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;An OLAP engine as a reporting tool is an option we can explore, both for internal or external use, as it leverages the dimensional models to provide abiltiy to drill up and roll up of reports&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-775" y="2088" width="690" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EvN6JeFGkb7fxelTz9W4-4" value="&lt;font&gt;&lt;b style=&quot;font-size: 25px&quot;&gt;Awamo Data &lt;/b&gt;&lt;span style=&quot;font-size: 25px&quot;&gt;&lt;b&gt;Infrastructure&lt;/b&gt;&lt;/span&gt;&lt;b style=&quot;font-size: 25px&quot;&gt;&amp;nbsp;Architecture&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-720" y="50" width="650" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
