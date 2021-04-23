@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-22T15:19:23.666Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" etag="OOVRmvQMwCwZNbd9FfaJ" version="14.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-23T03:27:50.289Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" etag="yonqhDmd5BYFcFVNOU3_" version="14.6.6" type="github">
   <diagram id="4DWE1EE-UraobBMKhbyV" name="Page-1">
     <mxGraphModel dx="2272" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -152,7 +152,7 @@
           <mxGeometry x="-790" y="1840" width="20" height="29" as="geometry" />
         </mxCell>
         <mxCell id="9QgIOPHGZO2NKuR7qHqs-91" value="&lt;span style=&quot;font-size: 15px&quot;&gt;10&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-790" y="2040" width="20" height="29" as="geometry" />
+          <mxGeometry x="-790" y="2016" width="20" height="29" as="geometry" />
         </mxCell>
         <mxCell id="9QgIOPHGZO2NKuR7qHqs-92" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;For internal reporting a solution that supports dynamic dynamic generation of interactive visualizations&amp;nbsp;and insights from all accessible attributes from the data warehouse will be required&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;To kickstart the project, Apache Superset an Open source Visualization&amp;nbsp;tool will be the choice as the data warehouse evolves, once its rich enough, the recommended would be Tableau&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-780" y="1910" width="690" height="80" as="geometry" />
@@ -161,7 +161,7 @@
           <mxGeometry x="-790" y="1927.5" width="20" height="29" as="geometry" />
         </mxCell>
         <mxCell id="9QgIOPHGZO2NKuR7qHqs-94" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;An OLAP engine as a reporting tool is an option we can explore, both for internal or external use, as it leverages the dimensional models to provide abiltiy to drill up and roll up of reports&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-785" y="2030" width="690" height="80" as="geometry" />
+          <mxGeometry x="-782" y="2000" width="690" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
